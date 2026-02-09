@@ -2,7 +2,7 @@ pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
 
-pub fn message(msg: &st) {
+pub fn message(msg: &str) {
     println!("Hi there, {}", msg);
 }
 
